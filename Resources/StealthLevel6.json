@@ -1,0 +1,932 @@
+{
+  "background": null,
+  "objects": [
+    {
+      "name": "Player.json",
+      "transform": [
+        {
+          "x": 50,
+          "y": 100,
+          "width": 64,
+          "height": 64
+        }
+      ],
+      "character": [
+        {
+          "hp": 10
+        }
+      ]
+
+    },
+    {
+      "name": "Wall.json",
+      "sprite": [
+        {
+          "animated": false,
+          "imageName": "5BricksVert.png"
+        }
+      ],
+      "transform": [
+        {
+          "x": -32,
+          "y": 200,
+          "width": 64,
+          "height": 640
+        }
+      ],
+      "body": [
+        {
+          "width": 64,
+          "height": 640,
+          "wall": true
+        }
+      ]
+    },
+
+    {
+      "name": "Guard.json",
+      "transform": [
+        {
+          "x": 1050,
+          "y": 592
+        }
+      ],
+      "leftright":[
+        {
+          "startAction": 2,
+          "speed": 75,
+          "moveDuration": 1400,          
+          "visionLength": 90.0
+        }
+      ]
+    },
+
+    {
+      "name": "Guard.json",
+      "transform": [
+        {
+          "x": 200,
+          "y": 210
+        }
+      ],
+      "leftright":[
+        {
+          "startAction": 3,
+          "speed": 30,
+          "visionWidth": 0.3
+        }
+      ]
+    },
+
+    {
+      "name": "Guard.json",
+      "transform": [
+        {
+          "x": 1000,
+          "y": 210
+        }
+      ],
+      "leftright":[
+        {
+          "startAction": 1,
+          "speed": 30,
+          "visionWidth": 0.3
+        }
+      ]
+    },
+
+
+    {
+      "name": "Guard.json",
+      "transform": [
+        {
+          "x": 680,
+          "y": 338
+        }
+      ],
+      "leftright":[
+        {
+          "startAction": 0
+        }
+      ]
+    },
+
+
+  
+
+    {
+      "name": "Guard.json",
+      "transform": [
+        {
+          "x": 116,
+          "y": 512
+        }
+      ],
+      "leftright":[
+        {
+          "startAction": 0,
+          "moveDuration": 2000, 
+          "speed": 25,
+          "visionWidth": 0.2,
+          "waitDuration": 1000
+        }
+      ]
+    },
+
+
+
+    
+    {
+      "name": "Guard.json",
+      "transform": [
+        {
+          "x": 324,
+          "y": 384
+        }
+      ],
+      "leftright":[
+        {
+          "startAction": 3,
+          "moveDuration": 2000, 
+          "speed": 25,
+          "visionWidth": 0.2,
+          "waitDuration": 1000
+        }
+      ]
+    },
+
+
+    {
+      "name": "Guard.json",
+      "transform": [
+        {
+          "x": 324,
+          "y": 640
+        }
+      ],
+      "leftright":[
+        {
+          "startAction": 3,
+          "moveDuration": 2000, 
+          "speed": 25,
+          "visionWidth": 0.2,
+          "waitDuration": 1000
+        }
+      ]
+    },
+
+    
+    {
+      "name": "Guard.json",
+      "transform": [
+        {
+          "x": 580,
+          "y": 512
+        }
+      ],
+      "leftright":[
+        {
+          "startAction": 0,
+          "moveDuration": 2000, 
+          "speed": 25,
+          "visionWidth": 0.2,
+          "waitDuration": 1000
+        }
+      ]
+    },
+
+    {
+      "name": "Guard.json",
+      "transform": [
+        {
+          "x": 580,
+          "y": 640
+        }
+      ],
+      "leftright":[
+        {
+          "startAction": 3,
+          "moveDuration": 2000, 
+          "speed": 25,
+          "visionWidth": 0.2,
+          "waitDuration": 1000
+        }
+      ]
+    },
+
+    {
+      "name": "Wall.json",
+      "sprite": [
+        {
+          "animated": false,
+          "imageName": "5BricksVert.png"
+        }
+      ],
+      "transform": [
+        {
+          "x": 864,
+          "y": 656,
+          "width": 64,
+          "height": 320
+        }
+      ],
+      "body": [
+        {
+          "width": 64,
+          "height": 320,
+          "wall": true
+        }
+      ]
+    },
+
+    {
+      "name": "SemisolidWall.json",
+      "transform": [
+        {
+          "x": 144,
+          "y": 448,
+          "width": 64,
+          "height": 64
+        }
+      ],
+      "body": [
+        {
+          "width": 64,
+          "height": 64,
+          "wall": true,
+          "semi": true
+        }
+      ]
+    },
+
+    {
+      "name": "SemisolidWall.json",
+      "transform": [
+        {
+          "x": 144,
+          "y": 576,
+          "width": 64,
+          "height": 64
+        }
+      ],
+      "body": [
+        {
+          "width": 64,
+          "height": 64,
+          "wall": true,
+          "semi": true
+        }
+      ]
+    },
+
+    {
+      "name": "SemisolidWall.json",
+      "transform": [
+        {
+          "x": 224,
+          "y": 512,
+          "width": 64,
+          "height": 64
+        }
+      ],
+      "body": [
+        {
+          "width": 64,
+          "height": 64,
+          "wall": true,
+          "semi": true
+        }
+      ]
+    },
+
+    {
+      "name": "SemisolidWall.json",
+      "transform": [
+        {
+          "x": 224,
+          "y": 640,
+          "width": 64,
+          "height": 64
+        }
+      ],
+      "body": [
+        {
+          "width": 64,
+          "height": 64,
+          "wall": true,
+          "semi": true
+        }
+      ]
+    },
+
+    {
+      "name": "SemisolidWall.json",
+      "transform": [
+        {
+          "x": 480,
+          "y": 512,
+          "width": 64,
+          "height": 64
+        }
+      ],
+      "body": [
+        {
+          "width": 64,
+          "height": 64,
+          "wall": true,
+          "semi": true
+        }
+      ]
+    },
+
+    {
+      "name": "SemisolidWall.json",
+      "transform": [
+        {
+          "x": 352,
+          "y": 576,
+          "width": 64,
+          "height": 64
+        }
+      ],
+      "body": [
+        {
+          "width": 64,
+          "height": 64,
+          "wall": true,
+          "semi": true
+        }
+      ]
+    },
+
+    {
+      "name": "SemisolidWall.json",
+      "transform": [
+        {
+          "x": 608,
+          "y": 576,
+          "width": 64,
+          "height": 64
+        }
+      ],
+      "body": [
+        {
+          "width": 64,
+          "height": 64,
+          "wall": true,
+          "semi": true
+        }
+      ]
+    },
+
+    {
+      "name": "SemisolidWall.json",
+      "transform": [
+        {
+          "x": 352,
+          "y": 708,
+          "width": 64,
+          "height": 64
+        }
+      ],
+      "body": [
+        {
+          "width": 64,
+          "height": 64,
+          "wall": true,
+          "semi": true
+        }
+      ]
+    },
+
+    {
+      "name": "SemisolidWall.json",
+      "transform": [
+        {
+          "x": 352,
+          "y": 448,
+          "width": 64,
+          "height": 64
+        }
+      ],
+      "body": [
+        {
+          "width": 64,
+          "height": 64,
+          "wall": true,
+          "semi": true
+        }
+      ]
+    },
+
+
+    {
+      "name": "SemisolidWall.json",
+      "transform": [
+        {
+          "x": 480,
+          "y": 640,
+          "width": 64,
+          "height": 64
+        }
+      ],
+      "body": [
+        {
+          "width": 64,
+          "height": 64,
+          "wall": true,
+          "semi": true
+        }
+      ]
+    },
+
+    {
+      "name": "SemisolidWall.json",
+      "transform": [
+        {
+          "x": 224,
+          "y": 640,
+          "width": 64,
+          "height": 64
+        }
+      ],
+      "body": [
+        {
+          "width": 64,
+          "height": 64,
+          "wall": true,
+          "semi": true
+        }
+      ]
+    },
+
+    {
+      "name": "SemisolidWall.json",
+      "transform": [
+        {
+          "x": 608,
+          "y": 708,
+          "width": 64,
+          "height": 64
+        }
+      ],
+      "body": [
+        {
+          "width": 64,
+          "height": 64,
+          "wall": true,
+          "semi": true
+        }
+      ]
+    },
+
+    {
+      "name": "SemisolidWall.json",
+      "transform": [
+        {
+          "x": 144,
+          "y": 708,
+          "width": 64,
+          "height": 64
+        }
+      ],
+      "body": [
+        {
+          "width": 64,
+          "height": 64,
+          "wall": true,
+          "semi": true
+        }
+      ]
+    },
+
+
+    {
+      "name": "Wall.json",
+      "sprite": [
+        {
+          "animated": false,
+          "imageName": "5BricksHoriz.png"
+        }
+      ],
+      "transform": [
+        {
+          "x": 900,
+          "y": 656,
+          "width": 320,
+          "height": 64
+        }
+      ],
+      "body": [
+        {
+          "width": 320,
+          "height": 64,
+          "wall": true
+        }
+      ]
+    },
+
+    {
+      "name": "Wall.json",
+      "sprite": [
+        {
+          "animated": false,
+          "imageName": "5BricksHoriz.png"
+        }
+      ],
+      "transform": [
+        {
+          "x": 224,
+          "y": 272,
+          "width": 320,
+          "height": 64
+        }
+      ],
+      "body": [
+        {
+          "width": 320,
+          "height": 64,
+          "wall": true
+        }
+      ]
+    },
+    {
+      "name": "Wall.json",
+      "sprite": [
+        {
+          "animated": false,
+          "imageName": "5BricksHoriz.png"
+        }
+      ],
+      "transform": [
+        {
+          "x": 480,
+          "y": 336,
+          "width": 320,
+          "height": 64
+        }
+      ],
+      "body": [
+        {
+          "width": 320,
+          "height": 64,
+          "wall": true
+        }
+      ]
+    },
+
+    {
+      "name": "Wall.json",
+      "sprite": [
+        {
+          "animated": false,
+          "imageName": "5BricksHoriz.png"
+        }
+      ],
+      "transform": [
+        {
+          "x": 736,
+          "y": 400,
+          "width": 320,
+          "height": 64
+        }
+      ],
+      "body": [
+        {
+          "width": 320,
+          "height": 64,
+          "wall": true
+        }
+      ]
+    },
+
+    {
+      "name": "Wall.json",
+      "sprite": [
+        {
+          "animated": false,
+          "imageName": "5BricksHoriz.png"
+        }
+      ],
+      "transform": [
+        {
+          "x": 976,
+          "y": 272,
+          "width": 320,
+          "height": 64
+        }
+      ],
+      "body": [
+        {
+          "width": 320,
+          "height": 64,
+          "wall": true
+        }
+      ]
+    },
+
+    
+    {
+      "name": "Wall.json",
+      "sprite": [
+        {
+          "animated": false,
+          "imageName": "5BricksHoriz.png"
+        }
+      ],
+      "transform": [
+        {
+          "x": 600,
+          "y": 144,
+          "width": 320,
+          "height": 64
+        }
+      ],
+      "body": [
+        {
+          "width": 320,
+          "height": 64,
+          "wall": true
+        }
+      ]
+    },
+
+    
+    
+
+
+
+
+
+
+
+
+
+    {
+      "name": "Wall.json",
+      "sprite": [
+        {
+          "animated": false,
+          "imageName": "10BricksHoriz.png"
+        }
+      ],
+      "transform": [
+        {
+          "x": 320,
+          "y": 16,
+          "width": 640,
+          "height": 64
+        }
+      ],
+      "body": [
+        {
+          "width": 640,
+          "height": 64,
+          "wall": true
+        }
+      ]
+    },
+    
+    {
+      "name": "Wall.json",
+      "sprite": [
+        {
+          "animated": false,
+          "imageName": "10BricksHoriz.png"
+        }
+      ],
+      "transform": [
+        {
+          "x": 960,
+          "y": 16,
+          "width": 640,
+          "height": 64
+        }
+      ],
+      "body": [
+        {
+          "width": 640,
+          "height": 64,
+          "wall": true
+        }
+      ]
+    },
+
+    {
+      "name": "Wall.json",
+      "sprite": [
+        {
+          "animated": false,
+          "imageName": "10BricksHoriz.png"
+        }
+      ],
+      "transform": [
+        {
+          "x": 320,
+          "y": 848,
+          "width": 640,
+          "height": 64
+        }
+      ],
+      "body": [
+        {
+          "width": 640,
+          "height": 64,
+          "wall": true
+        }
+      ]
+    },
+    
+
+    {
+      "name": "Wall.json",
+      "sprite": [
+        {
+          "animated": false,
+          "imageName": "10BricksHoriz.png"
+        }
+      ],
+      "transform": [
+        {
+          "x": 960,
+          "y": 848,
+          "width": 640,
+          "height": 64
+        }
+      ],
+      "body": [
+        {
+          "width": 640,
+          "height": 64,
+          "wall": true
+        }
+      ]
+    },
+
+
+
+    {
+      "name": "Wall.json",
+      "sprite": [
+        {
+          "animated": false,
+          "imageName": "10BricksVert.png"
+        }
+      ],
+      "transform": [
+        {
+          "x": 16,
+          "y": 784,
+          "width": 64,
+          "height": 640
+        }
+      ],
+      "body": [
+        {
+          "width": 64,
+          "height": 640,
+          "wall": true
+        }
+      ]
+    },
+
+    {
+      "name": "Wall.json",
+      "sprite": [
+        {
+          "animated": false,
+          "imageName": "10BricksVert.png"
+        }
+      ],
+      "transform": [
+        {
+          "x": 80,
+          "y": 784,
+          "width": 64,
+          "height": 640
+        }
+      ],
+      "body": [
+        {
+          "width": 64,
+          "height": 640,
+          "wall": true
+        }
+      ]
+    },
+
+    {
+      "name": "Wall.json",
+      "sprite": [
+        {
+          "animated": false,
+          "imageName": "10BricksVert.png"
+        }
+      ],
+      "transform": [
+        {
+          "x": 1168,
+          "y": 656,
+          "width": 64,
+          "height": 640
+        }
+      ],
+      "body": [
+        {
+          "width": 64,
+          "height": 640,
+          "wall": true
+        }
+      ]
+    },
+
+    {
+      "name": "Wall.json",
+      "sprite": [
+        {
+          "animated": false,
+          "imageName": "10BricksVert.png"
+        }
+      ],
+      "transform": [
+        {
+          "x": 1168,
+          "y": 784,
+          "width": 64,
+          "height": 640
+        }
+      ],
+      "body": [
+        {
+          "width": 64,
+          "height": 640,
+          "wall": true
+        }
+      ]
+    },
+
+    {
+      "name": "Key_1.json",
+      "transform": [
+        {
+          "x": 1100,
+          "y": 200
+        }
+      ]
+    },
+
+    {
+      "name": "Key_2.json",
+      "transform": [
+        {
+          "x": 425,
+          "y": 250
+        }
+      ]
+    },
+
+    {
+      "name": "Key_3.json",
+      "transform": [
+        {
+          "x": 480,
+          "y": 440
+        }
+      ]
+    },
+
+    {
+      "name": "Key_4.json",
+      "transform": [
+        {
+          "x": 950,
+          "y": 575
+        }
+      ]
+    },
+
+    {
+      "name": "Key_5.json",
+      "transform": [
+        {
+          "x": 800,
+          "y": 575
+        }
+      ]
+    },
+
+    {
+      "name": "Exit_5.json",
+      "transform": [
+        {
+          "x": 56,
+          "y": 384
+        }
+      ]
+    }
+    
+    
+  ],
+  
+  "timescale": 1.0
+}

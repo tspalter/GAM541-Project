@@ -1,0 +1,10 @@
+Player.txt
+100 100
+Enemy.txt
+300 100
+Enemy.txt
+400 500
+Enemy.txt
+100 400
+Slime.txt
+600 600

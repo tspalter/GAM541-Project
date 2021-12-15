@@ -1,0 +1,28 @@
+{
+  "background": null,
+  "objects": [
+    {
+      "transform": [
+        {
+          "x": 600,
+          "y": 800,
+          "width": 1200,
+          "height": 800
+        }
+      ],
+      "sprite": [ 
+        {
+          "animated": true,
+          "idlingImageName": "ConCaveity_Title_Transition_Idle.png",
+          "idlingColumns": 5,
+          "idlingRows": 3
+    
+        } 
+      ]
+
+    }
+  ],
+  
+  
+  "timescale": 1.0
+}

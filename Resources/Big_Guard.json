@@ -1,0 +1,55 @@
+{
+  "transform": [
+    {
+      "x": 200,
+      "y": 200,
+      "width": 112,
+      "height": 80,
+      "xoffset": 6
+    }
+  ],
+  "sprite": [ 
+    {
+      "animated": true,
+      "idlingImageName": "Big_Guard_Idle.png",
+      "idlingColumns": 3,
+      "idlingRows": 1,
+      "attackingImageName": "Big_Guard_Attacking.png",
+      "attackingColumns": 4,
+      "attackingRows": 4
+    }  
+  ],
+  "character": [
+    {
+      "hp": 3,
+      "radius": 40,
+      "hasHealthBar": true
+    }
+  ],
+  "bossAttack":
+  [
+    {
+      "attackDuration": 850, 
+      "waitDuration": 2000,
+      "attackWidth": 1.571,
+      "attackAngleMod": 4.72,
+      "attackLength": 180,
+      "damage": 0.5
+    }
+  ],
+  "objective": [
+    {
+      "radius": 32,
+      "objectiveType": 2
+    }
+  ],
+"audioClip": [
+{
+"EventCount": 1
+},
+    {
+      "name": "Die",
+      "volume": 1
+}
+]
+}

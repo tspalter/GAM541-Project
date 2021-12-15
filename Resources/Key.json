@@ -1,0 +1,43 @@
+{
+  "transform": [
+    {
+      "x": 1102,
+      "y": 200,
+      "width": 32,
+      "height": 32
+    }
+  ],
+  "sprite": [ 
+    {
+      "animated": true,
+      "idlingImageName": "Key_Idle.png",
+      "idlingColumns": 6,
+      "idlingRows": 1,
+      "runningImageName": "Key_Running.png",
+      "runningColumns": 7,
+      "runningRows": 1
+    }  
+  ],
+  "character": [
+    {
+      "hp": 100,
+      "radius": 32
+    }
+  ],
+  "objective": [
+    {
+      "radius": 32,
+      "objectiveType": 0
+    }
+  ],
+  "audioClip": [
+{
+"EventCount": 1
+},
+    {
+      "name": "Key",
+      "volume": 1
+}
+]
+
+}

@@ -1,0 +1,43 @@
+{
+  "transform": [
+    {
+      "x": 1152,
+      "y": 785,
+      "width": 96,
+      "height": 96
+    }
+  ],
+  "sprite": [ 
+    {
+      "animated": true,
+      "idlingImageName": "doors/door_3_B_idling.png",
+      "idlingColumns": 1,
+      "idlingRows": 1,
+      "runningImageName": "doors/door_3_B_opening.png",
+      "runningColumns": 3,
+      "runningRows": 3
+    }  
+  ],
+  "character": [
+    {
+      "hp": 100,
+      "radius": 40
+    }
+  ],
+  "objective": [
+    {
+      "radius": 60,
+      "objectiveType": 1
+    }
+  ],
+
+  "audioClip": [
+{
+"EventCount": 1
+},
+    {
+      "name": "DoorOpen",
+      "volume": 1
+}
+]
+}

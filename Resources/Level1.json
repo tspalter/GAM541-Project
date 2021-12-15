@@ -1,0 +1,240 @@
+{
+  "background": null,
+  "objects": [
+    {
+      "name": "Player.json",
+      "transform": [
+        {
+          "x": 600,
+          "y": 450
+        }
+      ],
+      "character": [
+        {
+          "hp": 10
+        }
+      ]
+    },
+    {
+      "name": "Trampoline.json",
+      "transform": [
+        {
+          "x": 200,
+          "y": 600
+        }
+      ]
+    },
+    {
+      "name": "Trampoline.json",
+      "transform": [
+        {
+          "x": 280,
+          "y": 600
+        }
+      ]
+    },
+    {
+      "name": "Wall.json",
+      "sprite": [
+        {
+          "animated": false,
+          "imageName": "Bricks.png"
+        }
+      ],
+      "transform": [
+        {
+          "x": 360,
+          "y": 600
+        }
+      ]
+    },
+    {
+      "name": "Wall.json",
+      "sprite": [
+        {
+          "animated": false,
+          "imageName": "Bricks.png"
+        }
+      ],
+      "transform": [
+        {
+          "x": 424,
+          "y": 600
+        }
+      ]
+    },
+    {
+      "name": "Wall.json",
+      "sprite": [
+        {
+          "animated": false,
+          "imageName": "Bricks.png"
+        }
+      ],
+      "transform": [
+        {
+          "x": 488,
+          "y": 600
+        }
+      ]
+    },
+    {
+      "name": "Wall.json",
+      "sprite": [
+        {
+          "animated": false,
+          "imageName": "Bricks.png"
+        }
+      ],
+      "transform": [
+        {
+          "x": 552,
+          "y": 600
+        }
+      ]
+    },
+    {
+      "name": "Wall.json",
+      "sprite": [
+        {
+          "animated": false,
+          "imageName": "Bricks.png"
+        }
+      ],
+      "transform": [
+        {
+          "x": 616,
+          "y": 600
+        }
+      ]
+    },
+    {
+      "name": "Wall.json",
+      "sprite": [
+        {
+          "animated": false,
+          "imageName": "Bricks.png"
+        }
+      ],
+      "transform": [
+        {
+          "x": 680,
+          "y": 600
+        }
+      ]
+    },
+    {
+      "name": "Wall.json",
+      "transform": [
+        {
+          "x": 800,
+          "y": 520
+        }
+      ]
+    },
+    {
+      "name": "Wall.json",
+      "transform": [
+        {
+          "x": 850,
+          "y": 440
+        }
+      ]
+    },
+    {
+      "name": "Wall.json",
+      "transform": [
+        {
+          "x": 900,
+          "y": 360
+        }
+      ]
+    },
+    {
+      "name": "Wall.json",
+      "transform": [
+        {
+          "x": 950,
+          "y": 300
+        }
+      ]
+    },
+    {
+      "name": "Wall.json",
+      "transform": [
+        {
+          "x": 700,
+          "y": 300
+        }
+      ]
+    },
+    {
+      "name": "Wall.json",
+      "transform": [
+        {
+          "x": 620,
+          "y": 300
+        }
+      ]
+    },
+    {
+      "name": "Trampoline.json",
+      "transform": [
+        {
+          "x": 540,
+          "y": 300
+        }
+      ]
+    },
+    {
+      "name": "SemiSolidWall.json",
+      "transform": [
+        {
+          "x": 200,
+          "y": 300,
+          "width": 64
+        }
+      ]
+    },
+    {
+      "name": "SemiSolidWall.json",
+      "transform": [
+        {
+          "x": 264,
+          "y": 300,
+          "width": 64
+        }
+      ]
+    },
+    {
+      "name": "SemiSolidWall.json",
+      "transform": [
+        {
+          "x": 328,
+          "y": 300,
+          "width": 64
+        }
+      ]
+    },
+    {
+      "name": "SemiSolidWall.json",
+      "transform": [
+        {
+          "x": 392,
+          "y": 300,
+          "width": 64
+        }
+      ]
+    },
+    {
+      "name": "Slime.json",
+      "transform": [
+        {
+          "x": 100,
+          "y": 540
+        }
+      ]
+    }
+  ],
+  "timescale": 1.0
+}

@@ -1,0 +1,28 @@
+{
+  "background": null,
+  "objects": [
+    {
+      "transform": [
+        {
+          "x": 600,
+          "y": 800,
+          "width": 1293,
+          "height": 727
+        }
+      ],
+      "sprite": [ 
+        {
+          "animated": true,
+          "idlingImageName": "Digipen_Logo.png",
+          "idlingColumns": 1,
+          "idlingRows": 1
+    
+        } 
+      ]
+
+    }
+  ],
+  
+  
+  "timescale": 1.0
+}

@@ -1,0 +1,6 @@
+Transform
+200.0 40.0
+Sprite
+Shocked.bmp
+UpDown
+0 1200

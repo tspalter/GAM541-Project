@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="FrameRateController.cpp" />
+    <ClCompile Include="GameObject.cpp" />
+    <ClCompile Include="GameObjectManager.cpp" />
+    <ClCompile Include="InputManager.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="ResourceManager.cpp" />
+    <ClCompile Include="Components\Component.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\UpDown.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\Transform.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\Sprite.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\Controller.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectFactory.cpp" />
+    <ClCompile Include="Components\Slime.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\Character.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\Augmentor.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\Sniper.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionManager.cpp" />
+    <ClCompile Include="EventManager.cpp" />
+    <ClCompile Include="Moderator.cpp" />
+    <ClCompile Include="LoadShaders.cpp" />
+    <ClCompile Include="Components\Body.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioManager.cpp" />
+    <ClCompile Include="common.cpp" />
+    <ClCompile Include="common_platform.cpp" />
+    <ClCompile Include="..\glad\src\glad.c" />
+    <ClCompile Include="Components\AudioClip.cpp" />
+    <ClCompile Include="Components\Runner.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui.cpp" />
+    <ClCompile Include="imgui\imgui_demo.cpp" />
+    <ClCompile Include="imgui\imgui_draw.cpp" />
+    <ClCompile Include="imgui\imgui_tables.cpp" />
+    <ClCompile Include="imgui\imgui_widgets.cpp" />
+    <ClCompile Include="StealthModerator.cpp" />
+    <ClCompile Include="Components\LeftRight.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\Objective.cpp" />
+    <ClCompile Include="Components\BossAttack.cpp" />
+    <ClCompile Include="Components\AudioBGM.cpp" />
+    <ClCompile Include="Components\AudioEvent.cpp" />
+    <ClCompile Include="Components\Invincibility.cpp" />
+    <ClCompile Include="Components\Eye.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FrameRateController.h" />
+    <ClInclude Include="GameObject.h" />
+    <ClInclude Include="GameObjectManager.h" />
+    <ClInclude Include="InputManager.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="ResourceManager.h" />
+    <ClInclude Include="Components\Component.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\UpDown.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Transform.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Sprite.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Controller.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectFactory.h" />
+    <ClInclude Include="Components\Slime.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Character.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Augmentor.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Sniper.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionManager.h" />
+    <ClInclude Include="EventManager.h" />
+    <ClInclude Include="Moderator.h" />
+    <ClInclude Include="LoadShaders.h" />
+    <ClInclude Include="Components\Body.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioManager.h" />
+    <ClInclude Include="common.h" />
+    <ClInclude Include="common_platform.h" />
+    <ClInclude Include="..\..\..\..\OpenGL Tutorial\GLFWOpenGL\text.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\OpenGL Tutorial\GLFWOpenGL\texture.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\OpenGL Tutorial\GLFWOpenGL\shader.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\AudioClip.h" />
+    <ClInclude Include="Components\Runner.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="StealthModerator.h" />
+    <ClInclude Include="Components\LeftRight.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imconfig.h" />
+    <ClInclude Include="imgui\imgui.h" />
+    <ClInclude Include="imgui\imgui_internal.h" />
+    <ClInclude Include="imgui\imstb_rectpack.h" />
+    <ClInclude Include="imgui\imstb_textedit.h" />
+    <ClInclude Include="imgui\imstb_truetype.h" />
+    <ClInclude Include="Components\Objective.h" />
+    <ClInclude Include="Components\BossAttack.h" />
+    <ClInclude Include="Components\AudioBGM.h" />
+    <ClInclude Include="Components\AudioEvent.h" />
+    <ClInclude Include="Components\Invincibility.h" />
+    <ClInclude Include="Components\Eye.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Game Engine.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Components">
+      <UniqueIdentifier>{5ec2d55e-7aaa-4b30-9d53-0f4b47bb9aeb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{6c23e716-2674-43f6-85a4-fd8c7662a806}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Transform.vert" />
+    <None Include="Transform.frag" />
+    <None Include="Circ.frag" />
+    <None Include="Circ.vert" />
+    <None Include="Rect.frag" />
+    <None Include="Rect.vert" />
+    <None Include="Shaders\Circ.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\Circ.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\Transform.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\Transform.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\Rect.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\Rect.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\..\..\OpenGL Tutorial\GLFWOpenGL\text.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\..\..\OpenGL Tutorial\GLFWOpenGL\text.vert">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>

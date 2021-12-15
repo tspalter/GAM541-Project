@@ -1,0 +1,55 @@
+{
+  "transform": [
+    {
+      "x": 200,
+      "y": 200,
+      "width": 32,
+      "height": 64,
+      "xoffset": 2
+    }
+  ],
+  "sprite": [ 
+    {
+      "animated": true,
+      "idlingImageName": "Guard_Idling.png",
+      "idlingColumns": 5,
+      "idlingRows": 2,
+      "runningImageName": "Guard_Running.png",
+      "runningColumns": 4,
+      "runningRows": 1,
+      "attackingImageName": "Guard_Attacking.png",
+      "attackingColumns": 6,
+      "attackingRows": 1
+    }  
+  ],
+  "character": [
+    {
+      "hp": 3,
+      "radius": 36
+    }
+  ],
+  "audioClip": [
+{
+    "EventCount": 1
+},
+    {
+      "name": "Dizzy",
+      "volume": 0.3
+}
+
+  ],
+
+  "leftright":
+  [
+    {
+      "startAction": 0,
+      "moveDuration": 4000, 
+      "waitDuration": 500,
+      "speed": 50,
+      "visionWidth": 0.5,
+      "visionAngleMod": 0.0,
+      "visionLength": 125.0,
+      "damage": 0.5
+    }
+  ]
+}
